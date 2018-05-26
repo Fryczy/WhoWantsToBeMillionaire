@@ -333,9 +333,9 @@ public class App extends Application {
     }
 
     public static void main(String[] args) {
-       /* questions = FXCollections.observableArrayList(new Question("Cukor?", "Igen", "Nem", "Nem", "Nem"),
+        questions = FXCollections.observableArrayList(new Question("Cukor?", "Igen", "Nem", "Nem", "Nem"),
                 new Question("Jó?", "Igen", "Nem", "Nem", "Nem"),
-                new Question("Macciii?", "Igen", "Nem", "Nem", "nem"));*/
+                new Question("Macciii?", "Igen", "Nem", "Nem", "nem"));
         launch(args);
 
     }
